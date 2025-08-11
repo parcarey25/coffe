@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <nav class="navbar section-content">
+            <div href="" class="nav-logo">
+                <h2 class="logo-text">Coffee</h2>
+            </div>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">home</a>
+                </li>
+        
+                </li> <li class="nav-item">
+                    <a href="menu - Copy.html" class="nav-link">menu</a>
+               
+           
+                </li> <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">gallery</a>
+                </li> <li class="nav-item">
+               
+               
+                </li> <li class="nav-item">
+                    <a href="testimonial.html" class="nav-link">testimonial</a>    
+                </li>
+                </li> <li class="nav-item">
+                    <a href="service.html" class="nav-link">service</a>    
+                </li>
+
+
+                
+            </ul>
+            <button id="menu-open-button" class="fas fa-times"></button>
+ 
+        </nav>
+    </header>
+    
+  <div class="container">
+    
+    <!-- Left Category Menu -->
+    <div class="sidebar">
+      <h2 class="section-title">Our Menu</Menu></h2>
+      <button onclick="loadCategory('brewed')">BREWED COFFEE</button>
+      <button onclick="loadCategory('espresso')">ESPRESSO</button>
+      <button onclick="loadCategory('latte')">Blended Beverage</button>
+      <button onclick="loadCategory('desert')">Desserts</button>
+      <button onclick="loadCategory('bakery')">All-day Bakery</button>
+      <button onclick="loadCategory('sandwiches')">Sandwiches</button>
+
+    </div>
+
+    <!-- Right Product Display -->
+    <div class="main-content">
+      <div id="product-list" class="product-list"></div>
+      <div id="product-detail" class="product-detail hidden"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
